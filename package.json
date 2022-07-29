@@ -1,5 +1,5 @@
 {
-  "name": "json-schema-to-typescript",
+  "name": "@zuplo/json-schema-to-typescript",
   "version": "11.0.1",
   "description": "compile json schema to typescript typings",
   "main": "dist/src/index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcherny/json-schema-to-typescript.git"
+    "url": "git+https://github.com/zuplo/json-schema-to-typescript.git"
   },
   "keywords": [
     "json",
@@ -42,11 +42,11 @@
   "author": "Boris Cherny <boris@performancejs.com> (http://performancejs.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bcherny/json-schema-to-typescript/issues"
+    "url": "https://github.com/zuplo/json-schema-to-typescript/issues"
   },
-  "homepage": "https://github.com/bcherny/json-schema-to-typescript#readme",
+  "homepage": "https://github.com/zuplo/json-schema-to-typescript#readme",
   "dependencies": {
-    "@apidevtools/json-schema-ref-parser": "https://github.com/bcherny/json-schema-ref-parser.git#984282d34a2993e5243aa35100fe32a63699164d",
+    "@zuplo/json-schema-ref-parser": "^9.10.0",
     "@types/json-schema": "^7.0.11",
     "@types/lodash": "^4.14.182",
     "@types/prettier": "^2.6.1",
